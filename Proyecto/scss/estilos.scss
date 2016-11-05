@@ -6,9 +6,10 @@ html{
     background: url(../images/fondo-bienvenidos.jpg);
     background-size: cover;
     height: 100vh;//100% de la altura pantalla
+    overflow: hidden;
 }
-.encabezado{
-    background: rgba(0,0,0,0.28);
+.navbar-fixed-top{
+    background: rgba(0,0,0,0.60);
 }
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover, .navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:hover {
     color: #ddd;
@@ -27,7 +28,6 @@ html{
 .navbar-light .navbar-nav .nav-link {
     color: rgb(255,255,255);
     text-align: center;
-    margin: .2rem;
 }
 .navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .open > .nav-link:focus, .navbar-light .navbar-nav .open > .nav-link:hover, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .active > .nav-link:focus, .navbar-light .navbar-nav .active > .nav-link:hover, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.open:focus, .navbar-light .navbar-nav .nav-link.open:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active:focus, .navbar-light .navbar-nav .nav-link.active:hover {
     color: #eee;
@@ -42,3 +42,48 @@ html{
 #menuPrincipal{
     clear:both;
 }
+.texto-bienvenido{
+    color:white;
+    margin-top: 6rem
+}
+.btn-primary {
+    color: #fff;
+    background-color: #029dd8;
+    border-color: #1902d8;
+    transition: all .5s ease;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(0, 138, 255);
+    border-color: #014279;
+}
+/*ESTILOS BLOQUE QUIENES SOMOS*/
+.quienes-somos{
+    background: #0062FF;
+    color: #fff;
+}
+/*ESTILOS BLOQUE NUESTROS SERVICIOS*/
+.servicios .row div{
+    
+}
+.servicios .fa{
+    color:#0000FF;
+    font-size: 6rem;
+}
+.servicios h3{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
