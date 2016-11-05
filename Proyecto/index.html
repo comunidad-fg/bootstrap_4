@@ -17,33 +17,37 @@
   <body>
     <section class="bienvenidos">
         <div class="container">
+
             <header class="encabezado">
+
                 <nav class="navbar navbar-light navbar-fixed-top">
-                    <button class="navbar-toggler hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#menuPrincipal">
-                    &#9776;
-                  </button>
-                    <a class="navbar-brand" href="#">diegoferreyra.com</a>
-                  <div class="collapse navbar-toggleable-xs" id="menuPrincipal">
-                    <ul class="nav navbar-nav">
-                      <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
-                      </li>
+                  <div class="container">
+                      <button class="navbar-toggler hidden-md-up float-xs-right" type="button" data-toggle="collapse" data-target="#menuPrincipal">
+                      &#9776;
+                    </button>
+                      <a class="navbar-brand" href="#">diegoferreyra.com</a>
+                    <div class="collapse navbar-toggleable-sm float-md-right" id="menuPrincipal">
+                      <ul class="nav navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home</a>
+                        </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Portafolio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Redes sociales</a>
-                      </li>
-                    </ul>
+                          <a class="nav-link" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Portafolio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Redes sociales</a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </nav>
             </header>
@@ -64,7 +68,7 @@
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta fugiat quos, repudiandae debitis, officia et. Sed beatae rerum, ad eaque repudiandae. Animi dolor nostrum nesciunt libero quos, voluptatibus natus, necessitatibus.
         </p>
-        <a href="#" class="btn btn-secondary btn-lg">Más Información</a>
+        <a href="#" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#quienes-somos">Más Información</a>
       </div>
     </section>
 
@@ -94,8 +98,77 @@
       </section>
     </div>  
       
+  <section class="ultimos-proyectos py-2 text-xs-center">
+    <div class="container">
+      <h2 class="h3 mb-3">Últimos proyectos</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <a href=#>
+            <img  src="images/proyecto1.svg" class="img-fluid" alt="Proyecto 1" width="290">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href=#>
+            <img  src="images/proyecto2.svg" class="img-fluid" alt="Proyecto 2" width="290">
+          </a>
+        </div>
+        
+        <div class="col-md-4">
+          <a href=#>
+            <img  src="images/proyecto3.svg" class="img-fluid" alt="Proyecto 3" width="290">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href=#>
+            <img  src="images/proyecto4.svg" class="img-fluid" alt="Proyecto 4" width="290">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href=#>
+            <img  src="images/proyecto5.svg" class="img-fluid" alt="Proyecto 5" width="290">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href=#>
+            <img  src="images/proyecto6.svg" class="img-fluid" alt="Proyecto 6" width="290">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer py-2 text-xs-center">
+    <div class="container">
+      <p>2016 © diegoferreyra.com Todos los derechos reservados</p>
+    </div>
+  </footer>
       
-      
+  <!-- Modal -->
+  <div class="modal fade" id="quienes-somos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="quienes-somos">Quienes somos</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora assumenda dolorem recusandae velit nemo, iste amet ea ad fugiat atque. Accusamus voluptatum corporis iste architecto voluptatibus ex mollitia, nisi excepturi!
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="js/jquery.min.js"></script><!-- Jquery-->
     <script src="js/bootstrap.min.js"></script>

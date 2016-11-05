@@ -25,7 +25,10 @@ html {
 
 .navbar-light .navbar-nav .nav-link {
   color: white;
-  text-align: center; }
+  text-align: center;
+  padding: .1rem;
+  -webkit-transition: all .2s ease;
+          transition: all .2s ease; }
 
 .navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .open > .nav-link:focus, .navbar-light .navbar-nav .open > .nav-link:hover, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .active > .nav-link:focus, .navbar-light .navbar-nav .active > .nav-link:hover, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.open:focus, .navbar-light .navbar-nav .nav-link.open:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active:focus, .navbar-light .navbar-nav .nav-link.active:hover {
   color: #eee;
@@ -40,7 +43,7 @@ html {
 
 .texto-bienvenido {
   color: white;
-  margin-top: 6rem; }
+  margin-top: 8rem; }
 
 .btn-primary {
   color: #fff;
@@ -66,5 +69,42 @@ html {
 
 .servicios h3 {
   font-weight: bold; }
+
+/*ESTILOS BLOQUE ultimos proyectos*/
+.ultimos-proyectos {
+  background: #343635;
+  color: #fff; }
+
+.ultimos-proyectos a {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.5rem; }
+
+.ultimos-proyectos img {
+  min-width: 100%;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease; }
+
+.ultimos-proyectos a:hover img {
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5); }
+
+/*ESTILOS BLOQUE PIE DE PAGINA*/
+.footer {
+  color: #fff;
+  background: #222222; }
+
+/*Empiezan los mediaqueries*/
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; }
+
+  #menuPrincipal {
+    clear: inherit; }
+
+  .bienvenidos {
+    background: url(../images/fondo-bienvenido-grande.jpg);
+    background-size: cover; } }
 
 /*# sourceMappingURL=estilos.css.map */
